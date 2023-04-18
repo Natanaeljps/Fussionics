@@ -9,6 +9,7 @@ func _modo_campanha_pressed():
 
 
 func _partida_rapida_pressed():
+	print(2)
 	get_tree().change_scene_to_file("res://scenes/world/arena.tscn")
 
 

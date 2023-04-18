@@ -5,9 +5,9 @@ const SCREEN_CENTER := Vector2(960, 540)
 
 var position_offset: Vector2
 
-@onready var layer_1: Sprite2D = $layer_1
-@onready var layer_2: Sprite2D = $layer_2
-@onready var particles = $particles
+@onready var layer_1: TextureRect = $A/layer_1
+@onready var layer_2: TextureRect  = $A/layer_2
+@onready var particles = $A/particles
 
 
 func _process(delta):
